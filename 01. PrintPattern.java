@@ -12,6 +12,7 @@ class PrintPattern {
             }
             System.out.println();
         }
+        
         System.out.println("For Boarder");
         for (int i = 1; i <= r; i++) {
             for (int j = 1; j <= c; j++) {
