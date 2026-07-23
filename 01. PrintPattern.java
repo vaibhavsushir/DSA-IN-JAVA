@@ -16,7 +16,7 @@ class PrintPattern {
         System.out.println("For Boarder");
         for (int i = 1; i <= r; i++) {
             for (int j = 1; j <= c; j++) {
-                if (i == 1 || i == r || j == 1 || j == c) {
+                if (i == 1 || i == r || j == 1 || j == c){
                     System.out.print("*");
                 }else{
                     System.out.print(" ");
