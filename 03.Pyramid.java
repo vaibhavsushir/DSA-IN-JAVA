@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Pyramid {
     public static void main(String[] args) {
+        System.out.print("Program To Print Pyramid");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
 
