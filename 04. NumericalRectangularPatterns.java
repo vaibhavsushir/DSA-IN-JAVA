@@ -5,7 +5,6 @@ import java.util.Scanner;
         System.out.print("Enter R: ");
         int r = input.nextInt();
 
-
         for(int i = 1; i <= r; i++){
             for(int j = i; j <= r ; j++){
                 System.out.print(j);
