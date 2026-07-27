@@ -1,7 +1,7 @@
 import java.util.Scanner;
  class NumericNumberRectangle {
     public static void main(String[] args) {
-     System.out.print(2);
+        System.out.print("NumericNumberRectangle");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
