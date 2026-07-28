@@ -1,6 +1,7 @@
 import java.util.Scanner;
  class Rightpyramid {
     public static void main(String[] args) {
+     System.out.print("RightPyramid");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
     for (int i = 1; i <= r; i++) {
