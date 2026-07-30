@@ -13,6 +13,6 @@ import java.util.Scanner;
             sum = sum + num % 10;
             num /= 10;
         }
-        return  sum;
+        return  sum; 
     }
 }
