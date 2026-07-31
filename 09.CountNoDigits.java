@@ -13,6 +13,6 @@ import java.util.Scanner;
             NOD += 1;
             num /= 10;
         }
-        return  NOD;
+        return  NOD; 
     }
 }
