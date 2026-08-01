@@ -1,6 +1,6 @@
  class MissingNo {
     public static void main(String[] args) {
-       int[] nums= {1,2,4,5};
+       int[] nums= {1,2,4,5}; 
        missingNumber(nums);
     }
     public static int missingNumber(int[] nums) {
