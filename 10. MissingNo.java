@@ -7,7 +7,7 @@
         int num = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == (i + 1)) {
-//                System.out.println("Hi");
+//                System.out.println("Hi"); 
             }else{
                 num = i + 1;
 //                System.out.println(num);
