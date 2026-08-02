@@ -2,7 +2,7 @@ import java.util.Scanner;
  class occorences {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-     System.out.print("Welcome To Count Occuerence")
+        System.out.print("Welcome To Count Occuerence");
         int[] numarr = {1,2,3,3,4,5,6,3};
 
             System.out.print("Enter Element You Want To Check Occ: ");
