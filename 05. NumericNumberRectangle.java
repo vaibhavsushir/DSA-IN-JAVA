@@ -1,7 +1,7 @@
 import java.util.Scanner;
  class NumericNumberRectangle {
     public static void main(String[] args) {
-        System.out.print("Numeric Number Rectangle");
+        System.out.print("Numeric Number Rectangle/n");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
