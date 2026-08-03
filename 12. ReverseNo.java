@@ -14,5 +14,5 @@ import java.util.Scanner;
             num /= 10;
         }
         return reverse;
-    }
+    } 
 }
