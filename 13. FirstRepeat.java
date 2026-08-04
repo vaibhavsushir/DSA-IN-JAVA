@@ -2,6 +2,7 @@ import java.util.Scanner;
  class FirstRepeat {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.print("
         System.out.print("Enter Array Size: ");
         int n = input.nextInt();
         int[] numarr = new int[n];
