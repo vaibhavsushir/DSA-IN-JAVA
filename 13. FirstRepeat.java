@@ -7,7 +7,7 @@ import java.util.Scanner;
         System.out.print("Enter Array Size: ");
         int n = input.nextInt();
         int[] numarr = new int[n];
-        System.out.println("Enter "+n+" Elements: ");
+        System.out.println("Enter "+n+" Elements: "); 
         for(int i=0; i< n; i++){
             numarr[i] = input.nextInt();
         }
