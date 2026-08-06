@@ -4,7 +4,6 @@ import java.util.Scanner;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number Till You Want Sum : ");
         int num = input.nextInt();
-
         int sum = 0;
         for( int i = 1 ; i <= num ; i++){
             if( i % 2 == 0){
