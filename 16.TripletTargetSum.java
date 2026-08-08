@@ -5,7 +5,7 @@ class TripletTargetSum {
         int TT =tripletsum(numarr,target);
         System.out.println("Total Number Of Triplets Is: "+TT);
     }
-    public static int tripletsum(int[] numarr,int target){
+    public static int tripletsum(int[] numarr,int target)
         int total = 0;
         for(int i=0; i< numarr.length; i++){
             for(int j=i+1; j< numarr.length; j++){
