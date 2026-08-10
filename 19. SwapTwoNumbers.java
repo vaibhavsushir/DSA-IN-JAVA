@@ -8,5 +8,4 @@ class SwapTwoNumbers {
         b = temp;
         System.out.println("After Swap : a = "+a+" And b = "+b);
     }
-
 }
