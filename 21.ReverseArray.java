@@ -7,8 +7,6 @@ class ReverseArray {
         System.out.println("Reverse Array Is : ");
         int[] rev = reverse(arr);
         printarray(rev);
-
-
     }
     public static int[] reverse(int[] arr){
         int n = arr.length;
