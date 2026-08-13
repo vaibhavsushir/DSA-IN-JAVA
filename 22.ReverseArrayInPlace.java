@@ -24,16 +24,5 @@ class ReverseArrayInPlace {
             i++;
             j--;
         }
-
-
-//    static int[] reverse(int[] arr){
-//        int n = arr.length;
-//        int i = 0,j=n-1;
-//        while(i <= j)
-//        for(i = 0; i < n; i++){
-//        arr[i++] = arr[j--];
-//            }
-//        return arr;
-//        }
     }
 }
