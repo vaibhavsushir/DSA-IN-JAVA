@@ -12,7 +12,6 @@ class ReverseArrayInPlace {
         }
         System.out.println();
     }
-
     static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
