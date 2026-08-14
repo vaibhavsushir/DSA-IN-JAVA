@@ -1,6 +1,6 @@
 import java.util.Scanner;
  class RotateArray {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int[] numarr = {1,2,3,4,5};
         System.out.print("Enter How Many Rotation You Perform: ");
