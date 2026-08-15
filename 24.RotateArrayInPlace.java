@@ -26,8 +26,6 @@ import java.util.Scanner;
         reverse(arr, n - k, n - 1);
         reverse(arr, 0, n - 1);
     }
-
-
     static void reverse(int[] arr, int i, int j) {
         while (i < j) {
             swap(arr, i, j);
