@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class PrintPattern {
     public static void main(String[] args) {
-        System.out.println("This Program Create Patterns");
+        System.out.println("This Program Create Patterns\n");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
