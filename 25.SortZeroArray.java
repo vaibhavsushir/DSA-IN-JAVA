@@ -5,7 +5,6 @@ class SortZeroArray {
         ArrayUtility.printarray(arr);
 
     }
-
     static void sort(int[] arr) {
         int zeroes = 0;
         int n = arr.length;
