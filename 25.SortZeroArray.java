@@ -19,7 +19,6 @@ class SortZeroArray {
                 } else {
                     arr[i] = 1;
                 }
-
             }
         }
     }
