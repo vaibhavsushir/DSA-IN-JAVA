@@ -29,6 +29,5 @@ class SortUsingTwoPointers {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
 }
 
