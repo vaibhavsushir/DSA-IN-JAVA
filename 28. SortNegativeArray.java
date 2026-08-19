@@ -8,21 +8,7 @@ class SortNegativeArray{
         sortsquare(arr);
         ArrayUtility.printarray(arr);
     }
-//    static void sortsquare(int[] arr) {
-//        int n = arr.length;
-//        int left = 0;
-//        int right = n - 1;
-//        int[] ans = new int[n];
-//        int k = 0;
-//
-//        while (left <= right) {
-//            if (Math.abs(arr[left]) > Math.abs(arr[right])) {
-//                ans[k++] = arr[left] * arr[left];
-//                left++;
-//            }
-//        }
-//    }
-//    }
+
 static void sortsquare(int[] arr) {
     int n = arr.length;
     int left = 0;
