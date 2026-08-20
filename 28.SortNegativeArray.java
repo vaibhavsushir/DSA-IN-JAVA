@@ -24,8 +24,6 @@ static void sortsquare(int[] arr) {
             right--;
         }
     }
-
-    // Copy back to original array
     for (int i = 0; i < n; i++) {
         arr[i] = ans[i];
     }
