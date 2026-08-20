@@ -11,11 +11,6 @@ import java.util.Scanner;
      }
      static int[] prefixsum(int[] arr){
          int n = arr.length;
-//         int[] pref = new int[n];
-//         for(int i=1; i < n; i++){
-//             pref[i] = pref[i-1] + arr[i];
-//         }
-//        return pref;
          for(int i=1; i < n; i++){
              arr[i] = arr[i-1] + arr[i];
          }
