@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class RangeQueory {
+class RangeQueory{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcom To Print Sum Form 1 To Range\n");
