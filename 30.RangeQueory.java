@@ -24,29 +24,6 @@ class RangeQueory{
         return arr;
     }
 }
-//import java.util.Scanner;
-//
-//class RangeQuery {
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Welcome To Print Sum From 1 To Range\n");
-//
-//        System.out.print("Enter Array Size: ");
-//        int n = input.nextInt();
-//        int[] arr = new int[n];
-//        System.out.println("Enter " + n + " elements:");
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = input.nextInt();
-//        }
-//
-//        int[] pref = prefixsum(arr);
-//
-//        System.out.print("Enter How Many Queries: ");
-//        int q = input.nextInt();
-//
-//        while (q-- > 0) {
-//            System.out.println("Enter Range (l r): ");
-//            int l = input.nextInt(); // left index
 //            int r = input.nextInt(); // right index
 //
 //            int ans;
