@@ -1,7 +1,7 @@
 import Java_Revision.ArrayUtility;
 
 import java.util.Scanner;
- class EqualSumPartition {
+ class EqualSumPartition{
      public static void main(String[] args) {
          System.out.println("Welcome To Check Array Partition Is Equal\n");
          int[] arr = ArrayUtility.takingarray();
