@@ -11,8 +11,6 @@ import java.util.Scanner;
          }else{
              System.out.println("Partition Is Not Equal");
          }
-
-
      }
      static int totalsum(int[] arr){
          int sum = 0;
