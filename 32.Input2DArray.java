@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Input2DArray{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Rows: ");
         int r = input.nextInt();
