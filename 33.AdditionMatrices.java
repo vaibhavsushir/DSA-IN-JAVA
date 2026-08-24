@@ -1,6 +1,6 @@
 import java.util.Scanner;
  class AdditionMatrices {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter First Matrix");
         System.out.print("Enter Rows: ");
