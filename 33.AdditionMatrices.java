@@ -36,7 +36,7 @@ import java.util.Scanner;
         int[][] add = add(arr, r1, c1, arr2, r2, c2);
         printarr(add);
     }
-            static int[][] add( int[][] a, int r1, int c1, int[][] b, int r2, int c2){
+    static int[][] add( int[][] a, int r1, int c1, int[][] b, int r2, int c2){
                 if (r1 != r2 || c1 != c2) {
                     System.out.println("Wrong Input Addition Is Not Possible");
                 }
