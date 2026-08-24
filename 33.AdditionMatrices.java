@@ -49,7 +49,7 @@ import java.util.Scanner;
                 }
                 return sum;
             }
-            static void printarr (int[][] array){
+            static void printarr(int[][] array){
                 for (int i = 0; i < array.length; i++){
                     for (int j = 0; j < array[i].length; j++){
                         System.out.print(array[i][j] + " ");
