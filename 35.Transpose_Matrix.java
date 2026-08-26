@@ -8,9 +8,9 @@ import java.util.Scanner;
              System.out.println();
          }
      }
-     static void transpose(int[][] arr,int r1,int c1) {
-         for (int i = 0; i < c1; i++) {
-             for (int j = i; j < r1; j++) {
+     static void transpose(int[][] arr,int r1,int c1){
+         for (int i = 0; i < c1; i++){
+             for (int j = i; j < r1; j++){
                  int temp = arr[i][j];
                  arr[i][j] = arr[j][i];
                  arr[j][i] = temp;
@@ -18,7 +18,7 @@ import java.util.Scanner;
          }
          printarray(arr);
      }
-     public static void main(String[] args) {
+     public static void main(String[] args){
          Scanner input = new Scanner(System.in);
          System.out.print("Enter Row: ");
          int r1 = input.nextInt();
