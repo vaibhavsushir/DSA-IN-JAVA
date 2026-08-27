@@ -27,16 +27,4 @@ class Rotation_90 {
             arr[i] = arr[j];
             arr[j] = temp;
             i++;
-            j--;
-        }
-    }
-    static void rotate(int[][] arr,int n) {
-     transpose(arr,n,n);
-        for (int i = 0; i < arr.length; i++) {
-            reversearray(arr[i]);
-        }
-        printarray(arr);
-    }
-
-}
-
+     
