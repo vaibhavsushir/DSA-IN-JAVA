@@ -38,17 +38,5 @@ class Rotation_90 {
         printarray(arr);
     }
 
-        public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter Row: ");
-        int r1 = input.nextInt();
-        System.out.print("Enter Column: ");
-        int c1 = input.nextInt();
-        int[][] array = new int[r1][c1];
-        for (int i = 0; i < r1; i++) {
-            for (int j = 0; j < c1; j++) {
-                array[i][j] = input.nextInt();
-  
-    }
 }
 
