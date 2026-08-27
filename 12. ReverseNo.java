@@ -7,7 +7,7 @@ import java.util.Scanner;
         int num = input.nextInt();
         int reverse = reverse(num);
         System.out.println("Your Reverse Number Is "+reverse);
-    }
+    }  
     public static int reverse(int num){
         int reverse = 0;
         while(num > 0){
