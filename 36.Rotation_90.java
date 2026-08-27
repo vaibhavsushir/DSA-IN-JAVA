@@ -9,7 +9,6 @@ class Rotation_90 {
             System.out.println();
         }
     }
-
     static void transpose(int[][] arr,int r1,int c1) {
         for (int i = 0; i < c1; i++) {
             for (int j = i; j < r1; j++) {
