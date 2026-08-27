@@ -11,7 +11,6 @@ class Rotation_90 {
     }
 
     static void transpose(int[][] arr,int r1,int c1) {
-//         int[][] trans = new int[c1][r1];
         for (int i = 0; i < c1; i++) {
             for (int j = i; j < r1; j++) {
 //                 trans[j][i] = arr[i][j];
