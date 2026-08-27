@@ -48,12 +48,7 @@ class Rotation_90 {
         for (int i = 0; i < r1; i++) {
             for (int j = 0; j < c1; j++) {
                 array[i][j] = input.nextInt();
-            }
-        }
-        System.out.println("Matrix ");
-        printarray(array);
-        System.out.println("Rotation Matrix Is");
-        rotate(array,r1);
+  
     }
 }
 
