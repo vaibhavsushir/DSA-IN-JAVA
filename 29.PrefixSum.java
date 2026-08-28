@@ -9,5 +9,4 @@ import java.util.Scanner;
          System.out.println("Prefix Sum Array Is");
          ArrayUtility.printarray(prefixsum);
      }
-     static int[] prefixsum(int
-         i
+     static int[
