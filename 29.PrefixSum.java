@@ -8,5 +8,4 @@ import java.util.Scanner;
          int[] prefixsum = prefixsum(arr);
          System.out.println("Prefix Sum Array Is");
          ArrayUtility.printarray(prefixsum);
-     }
-     static int[
+     
