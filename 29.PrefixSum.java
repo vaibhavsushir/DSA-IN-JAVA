@@ -10,5 +10,4 @@ import java.util.Scanner;
          ArrayUtility.printarray(prefixsum);
      }
      static int[] prefixsum(int
-         int n = arr.length;
-         f
+         i
