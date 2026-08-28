@@ -21,7 +21,7 @@ class Pascals_Triangle{
         }
         return ans;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter N: ");
         int n = input.nextInt();
