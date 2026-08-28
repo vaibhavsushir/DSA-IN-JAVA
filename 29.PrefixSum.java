@@ -11,4 +11,4 @@ import java.util.Scanner;
      }
      static int[] prefixsum(int
          int n = arr.length;
-         for(
+         f
