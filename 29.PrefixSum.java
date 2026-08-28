@@ -9,6 +9,6 @@ import java.util.Scanner;
          System.out.println("Prefix Sum Array Is");
          ArrayUtility.printarray(prefixsum);
      }
-     static int[] prefixsum(int[] arr){
+     static int[] prefixsum(int
          int n = arr.length;
          for(
