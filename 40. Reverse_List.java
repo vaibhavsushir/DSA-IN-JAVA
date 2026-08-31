@@ -9,9 +9,7 @@ class Reverse_List {
             Integer temp  = Integer.valueOf(list.get(i));
             list.set(i, list.get(j));
             list.set(j,temp);
-            i++;
-            j--;
-        }
+            i++;        }
     public static void main(String[] args) {
     ArrayList<Integer> list = new ArrayList<>();
         list.add(0);
