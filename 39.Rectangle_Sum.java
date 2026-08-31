@@ -6,10 +6,6 @@ import java.util.Scanner;
                  System.out.print(arr[i][j]+" ");
              }
              System.out.println();
-         }
-     }
-     static int findsum(int[][] matrix, int l1, int r1, int l2, int r2){
-     int sum = 0;
      for(int i=l1; i<=l2; i++){
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
