@@ -9,12 +9,3 @@ class Reverse_List {
         list.add(10);
 
         System.out.println("Original List "+list);
-        Collections.reverse(list);
-        System.out.println("Reverse List "+list);
-        Collections.sort(list);
-        System.out.println("Ascending Order "+list);
-        Collections.sort(list,Collections.reverseOrder());
-        System.out.println("Descending Order "+list);
-    }
-
-}
