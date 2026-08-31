@@ -8,9 +8,7 @@ class Reverse_List {
         while(i < j){
             Integer temp  = Integer.valueOf(list.get(i));
             list.set(i, list.get(j));
-            list.set(j,temp);
-            i++;        }
-    public static void main(String[] args) {
+            list.set(j,temp);    public static void main(String[] args) {
         list.add(0);
         list.add(10);
         list.add(3);
