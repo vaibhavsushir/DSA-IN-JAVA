@@ -13,11 +13,7 @@ import java.util.Scanner;
      for(int i=l1; i<=l2; i++){
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Row: ");
-        int r = input.nextInt();
-        System.out.print("Enter Column: ");
-        int c = input.nextInt();
-        int[][] array = new int[r][c];
+        System.out.print("Enter Row: 
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 array[i][j] = input.nextInt();
