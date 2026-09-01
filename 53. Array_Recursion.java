@@ -4,9 +4,7 @@ class Array_Recursion {
     static void arrprint(int[] arr,int idx) {
         if (idx == arr.length) {
             return ;
-        }
-        System.out.println(arr[idx]);
-        arrprint(arr,idx+1);
+        }        arrprint(arr,idx+1);
 
     }
     static int max(int[] arr,int idx){
