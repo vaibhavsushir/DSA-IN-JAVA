@@ -5,7 +5,6 @@ class Methods_ArrayList{
         l1.add(5);
         l1.add(7);
         l1.add(9);
-        System.out.println("print with loop");            System.out.println(l1.get(i));
         }
         System.out.println("printing the array list directly");
         System.out.println(l1);
