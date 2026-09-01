@@ -1,11 +1,10 @@
 import java.util.Scanner;
  class NumericNumberRectangle {
     public static void main(String[] args) {
-        System.out.print("Numeric Number Rectangle/n");
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
- 
+
         for(int i = 1; i <= r; i++){
             for(int j = 1; j <= c ; j++) {
                 if ((i + j) % 2 == 0) {
@@ -14,7 +13,8 @@ import java.util.Scanner;
                     System.out.print(2);
                 }
             }
-            System.out.println(); 
+            System.out.println();
         }
+
     }
 }
