@@ -4,7 +4,7 @@ class Fibonacci {
         if(num == 0 || num ==1){
             return num;
         }
-        //Subproblem
+        
         int prev = fib(num-1);
         int prevprev = fib(num-2);
         //Selfwork
