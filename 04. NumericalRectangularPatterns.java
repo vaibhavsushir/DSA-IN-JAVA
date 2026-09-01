@@ -7,9 +7,7 @@ import java.util.Scanner;
 
 
         for(int i = 1; i <= r; i++){
-            for(int j = i; j <= r ; j++){
-                System.out.print(j);
-            }
+            for(int j = i; j <= r ; j++)            }
             for(int k = 1; k <= i - 1; k++){
                 System.out.print(k);
             }
