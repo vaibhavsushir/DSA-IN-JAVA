@@ -8,7 +8,6 @@ class Methods_ArrayList {
 
         System.out.println("get an element at index i");
         System.out.println(l1.get(1));
-
         System.out.println("print with loop");
         for(int i=0; i<l1.size(); i++){
             System.out.println(l1.get(i));
