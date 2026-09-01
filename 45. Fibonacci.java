@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class Fibonacci {
     static int fib(int num){
-        //Base Case
         if(num == 0 || num ==1){
             return num;
         }
