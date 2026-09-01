@@ -6,9 +6,7 @@ class Recursion_Basic {
             if(n == 2){
                 System.out.println(1);
         
-            System.out.println(f);
-            fib(n);
-        }        Scanner input = new Scanner(System.in);
+            System.out.println(f);        }        Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int num = input.nextInt();    }
 }
