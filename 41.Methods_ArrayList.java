@@ -5,8 +5,6 @@ class Methods_ArrayList{
         l1.add(5);
         l1.add(7);
         l1.add(9);
-
-        System.out.println("get an element at index i");
         System.out.println(l1.get(1));
 
         System.out.println("print with loop");
