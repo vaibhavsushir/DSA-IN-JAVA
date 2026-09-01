@@ -7,7 +7,6 @@ class Array_Recursion {
         }        arrprint(arr,idx+1);
 
     }
-    static int max(int[] arr,int idx){
         if(idx == arr.length-1){
             return arr[idx];
         }
