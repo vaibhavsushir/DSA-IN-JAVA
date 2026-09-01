@@ -8,5 +8,4 @@ class Recursion_Basic {
         
             System.out.println(f);        }        Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
-        int num = input.nextInt();    }
-}
+        int num = inp
