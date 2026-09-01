@@ -10,7 +10,5 @@ class Recursion_Basic {
             fib(n);
         }        Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
-        int num = input.nextInt();
-        fib(num);
-    }
+        int num = input.nextInt();    }
 }
