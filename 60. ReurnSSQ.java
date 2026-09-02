@@ -2,10 +2,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 class ReurnSSQ {
 
-    static ArrayList<String> getSSQ(String s){
-        ArrayList<String> ans = new ArrayList<>();
-        if(s.length() == 0){
-        }
+    static ArrayList<String> getSSQ(String s){ayList<>();
+        if(s.length
         char curr = s.charAt(0);
         ArrayList<String> smallans = getSSQ(s.substring(1));
         for(String ss : smallans){
