@@ -1,10 +1,5 @@
 import java.util.Scanner;
 class CheckPalindrome {
-
-    static String reverse(String str,int idx){
-        char currchar = str.charAt(idx);
-        return smallans+currchar;
-    }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter String: ");
