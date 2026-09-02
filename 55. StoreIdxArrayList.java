@@ -6,8 +6,6 @@ class StoreIdxArrayList {
             System.out.print(i+" ");
         }
     }
-    static ArrayList<Integer> AllIndice(int[] arr,int target,int idx) {
-        int n = arr.length;
         ArrayList<Integer> ans = new ArrayList<>();
         if (idx >= n) {
             return ans;
