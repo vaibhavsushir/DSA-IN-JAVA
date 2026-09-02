@@ -1,8 +1,5 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-class StoreIdxArrayList {
-    static void printarr(ArrayList<Integer> list){
-        for(int i : list){
             System.out.print(i+" ");
         }
     }
