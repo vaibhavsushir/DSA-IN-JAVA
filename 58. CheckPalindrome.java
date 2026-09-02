@@ -4,7 +4,5 @@ class CheckPalindrome {
         if(rev.equals(str))ome ",str);
         }else{
             System.out.printf("%s Is Not Palindrome ",str);
-        }
-
     }
 }
