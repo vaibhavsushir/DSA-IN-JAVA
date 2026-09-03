@@ -10,7 +10,6 @@ class PalindromeTwoPointer {
         int n = str.lengt
         boolean pal = ispalindrome(str, 0, n - 1);
         if (pal) {
-            System.out.printf("%s Is Palindrome ", str);
         } else {
             System.out.printf("%s Is Not Palindrome ", str);
         }
