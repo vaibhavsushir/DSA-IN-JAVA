@@ -6,6 +6,4 @@ class CheckPalindrome {
 
     public static void main(String[] args) {
         System.out.print("Enter String: ");
-        String str = i
-        String 
-        if(rev.eq
+        String str 
