@@ -4,7 +4,4 @@ class PalindromeTwoPointer {
     static boolean ispalindrome(String str, int l, int r) 
 
         String str = input.nex
-        int n = st
-
-    }
-}
+        int n = 
