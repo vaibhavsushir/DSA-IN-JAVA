@@ -6,7 +6,6 @@ class CheckPalindrome {
 
         String smallans = reverse(str,idx+1);
         char currchar = str.charAt(idx);
-    }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
