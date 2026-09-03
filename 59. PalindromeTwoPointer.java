@@ -4,8 +4,7 @@ class PalindromeTwoPointer {
     static boolean ispalindrome(String str, int l, int r) {
         if (str.charAt(l) == str.charAt(r) && pal) {
             return true;
-        }
-        return false;
+        
     }
 
     public static void main(String[] args) {
