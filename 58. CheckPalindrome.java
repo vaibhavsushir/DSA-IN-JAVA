@@ -8,7 +8,6 @@ class CheckPalindrome {
         char currchar = str.charAt(idx);
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         System.out.print("Enter String: ");
         String str = i
         String rev = reverse(str,0);
