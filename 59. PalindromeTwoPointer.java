@@ -7,7 +7,8 @@ class PalindromeTwoPointer {
     }
 
         String str = input.nex
-        int n = str.lengt
+        int n = str.
+            
         boolean pal = ispalindrome(str, 0, n - 1);
         if (pal) {
         } else {
