@@ -8,7 +8,4 @@ class CheckPalindrome {
         System.out.print("Enter String: ");
         String str = i
         String 
-        if(rev.equals(str)){
-
-    }
-}
+        if(rev.eq
