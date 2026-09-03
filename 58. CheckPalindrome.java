@@ -13,10 +13,6 @@ class CheckPalindrome {
         String str = input.next();
         String rev = reverse(str,0);
         if(rev.equals(str)){
-            System.out.printf("%s Is Palindrome ",str);
-        }else{
-            System.out.printf("%s Is Not Palindrome ",str);
-        }
 
     }
 }
