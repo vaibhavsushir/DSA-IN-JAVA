@@ -10,7 +10,7 @@ class CheckPalindrome {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter String: ");
-        String str = input.next();
+        String str = i
         String rev = reverse(str,0);
         if(rev.equals(str)){
 
