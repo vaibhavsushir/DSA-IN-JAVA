@@ -5,7 +5,6 @@ class PalindromeTwoPointer {
         if (l >= r) {
             return true;
         }
-        boolean pal = ispalindrome(str, l + 1, r - 1);
         if (str.charAt(l) == str.charAt(r) && pal) {
             return true;
         }
