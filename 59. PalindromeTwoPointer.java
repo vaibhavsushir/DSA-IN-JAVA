@@ -3,7 +3,6 @@ class PalindromeTwoPointer {
 
     static boolean ispalindrome(String str, int l, int r) {
         if (str.charAt(l) == str.charAt(r) && pal) {
-            return true;
         
     }
 
