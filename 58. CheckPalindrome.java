@@ -4,8 +4,7 @@ class CheckPalindrome {
     static String reverse(String str,int idx){
         if(idx == str.length()) return "";
 
-        String smallans = reverse(str,idx+1
-        char currchar = str.charAt(idx);
+        String smallans = reverse(str,idx+
 
     public static void main(String[] args) {
         System.out.print("Enter String: ");
