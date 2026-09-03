@@ -6,7 +6,6 @@ class PalindromeTwoPointer {
         
     }
 
-    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String str = input.next();
         int n = str.length();
