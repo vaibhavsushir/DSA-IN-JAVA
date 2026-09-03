@@ -5,7 +5,7 @@ class PalindromeTwoPointer {
 
 
         String str = input.nex
-        int n = str.
+        int n = st
 
              if (pal) {
             System.out.printf("%s Is Not Palindrome ", str);
