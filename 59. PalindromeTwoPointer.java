@@ -6,6 +6,5 @@ class PalindromeTwoPointer {
         String str = input.nex
         int n = st
 
-             if (pal
     }
 }
