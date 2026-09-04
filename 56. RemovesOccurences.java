@@ -6,7 +6,6 @@ class RemovesOccurences {
         char currchar = s.charAt(idx);
         if(currchar != 'a'){
             return currchar+smallans;
-        }else{
             return smallans;
         }
     }
