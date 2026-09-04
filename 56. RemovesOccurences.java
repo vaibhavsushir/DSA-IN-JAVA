@@ -2,9 +2,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 class RemovesOccurences {
 
-    static String remove(String s,int idx){
-        String an
-        if(idx == n){
+    static String remove(String s,int idx){        if(idx == n){
             return " ";
         }
         String smallans = remove(s,idx+1);
