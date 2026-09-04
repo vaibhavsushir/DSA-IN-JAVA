@@ -1,5 +1,4 @@
 import java.sql.SQLOutput;
-import java.util.Scanner;
 class RemovesOccurences {
 
         String smallans = remove(s,idx+1);
