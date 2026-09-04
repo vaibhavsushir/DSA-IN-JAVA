@@ -3,7 +3,6 @@ import java.util.Scanner;
 class RemovesOccurences {
 
     static String remove(String s,int idx){        if(idx == n){
-        }
         String smallans = remove(s,idx+1);
         char currchar = s.charAt(idx);
         if(currchar != 'a'){
