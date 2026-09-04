@@ -4,7 +4,7 @@ class RemovesOccurences {
 
     static String remove(String s,int idx){
         int n = s.length();
-        String ans;
+        String an
         if(idx == n){
             return " ";
         }
