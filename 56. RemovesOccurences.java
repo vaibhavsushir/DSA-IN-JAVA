@@ -6,7 +6,7 @@ class RemovesOccurences {
         if(currchar != 'a'){
             return currchar+smallans;
             return 
-    }    public static void main(String[] args) {
+    }    public static void main(String[] a
         Scanner input = new Scanner
         System.out.print("Enter String: ");
         String s = input.nextLine();
