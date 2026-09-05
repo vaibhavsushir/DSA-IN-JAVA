@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 class RemovesOccurences {
 
-        String smallans = remove(s,idx+1);
+        String smallans = remove(s,idx+1
         char currchar = s.charAt(idx);
         if(currchar != 'a'){
             return currchar+smallans;
