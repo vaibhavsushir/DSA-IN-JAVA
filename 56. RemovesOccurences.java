@@ -8,7 +8,7 @@ class RemovesOccurences {
             return smallans;
         }
     }    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in
+        Scanner input = new Scanner
         System.out.print("Enter String: ");
         String s = input.nextLine();
         System.out.println(remove(s,0));
