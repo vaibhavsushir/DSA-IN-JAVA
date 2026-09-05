@@ -5,8 +5,7 @@ class RemovesOccurences {
         char currchar = s.charAt(idx);
         if(currchar != 'a'){
             return currchar+smallans;
-            return smallans;
-        }
+            return 
     }    public static void main(String[] args) {
         Scanner input = new Scanner
         System.out.print("Enter String: ");
