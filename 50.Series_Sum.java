@@ -11,12 +11,6 @@ class Series_Sum {
             return seriessum1(num - 1) + num;
         }
     }
-//static int seriessum(int num){
-//    if(num==0){
-//        return 0;
-//    }
-//    return seriessum(num-1)+num;
-//}
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
