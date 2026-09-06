@@ -10,7 +10,6 @@ class Recursion_Basic {
             System.out.println(f);
             fib(n);
         }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
