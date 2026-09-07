@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class PrintPattern {
+class PrintPattern{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
