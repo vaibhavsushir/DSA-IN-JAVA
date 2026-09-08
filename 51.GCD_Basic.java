@@ -7,11 +7,6 @@ class GCD_Basic {
             return num2;
         }
     }
-static int gcd(int num1,int num2){
-        int lowest = lowest(num1,num2);
-    for(int i=lowest; i>=1 ; i--){
-        if(num1 % i==0 && num2 % i==0){
-            return i;
         }
     }
     return 0;
