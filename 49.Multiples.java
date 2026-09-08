@@ -1,6 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
-class Multiples {
+class Multiples{
 
     static void multiples(int num,int k){
         if(k==1){
