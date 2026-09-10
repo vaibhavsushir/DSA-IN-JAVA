@@ -1,5 +1,5 @@
-class SwapSumDifferenceMethod {
-    public static void main(String[] args) {
+class SwapSumDifferenceMethod{
+    public static void main(String[] args){
         System.out.println("Before Swap");
         int a = 9;
         int b = 3;
