@@ -13,7 +13,6 @@ class SOD_Recursion {
         int ans = smallans + num % 10;
         return ans;
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
