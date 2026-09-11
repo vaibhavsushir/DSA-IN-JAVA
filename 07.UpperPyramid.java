@@ -1,5 +1,5 @@
 import java.util.Scanner;
- class UpperPyramid {
+ class UpperPyramid{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
