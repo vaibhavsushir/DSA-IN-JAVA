@@ -1,15 +1,5 @@
 import java.util.Scanner;
-class Power {
-
-//    static int power(int p, int q){
-//        if(q == 0) return 1;
-//
-//        int smallans = power(p,q-1);
-//
-//        return smallans * p;
-//
-//    }
-
+class Power{
     static int power(int p, int q){
         if(q==0) return 1;
         int smallans = power(p,q/2);
