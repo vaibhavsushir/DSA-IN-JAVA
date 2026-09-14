@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Series_Sum{
 
-    static int seriessum1(int num) {
+    static int seriessum1(int num){
         if (num == 0) {
             return 0;
         }
@@ -11,7 +11,7 @@ class Series_Sum{
             return seriessum1(num - 1) + num;
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int num =input.nextInt();
