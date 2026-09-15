@@ -12,12 +12,14 @@ import java.util.Scanner;
         System.out.println("Array After Rotate");
         printarray(ans);
     }
+  
     public static void printarray ( int[] arr){
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
+  
     static int[] rotate(int[] numarr,int k){
         int n = numarr.length;
         int j = 0;
