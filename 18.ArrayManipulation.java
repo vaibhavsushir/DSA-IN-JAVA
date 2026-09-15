@@ -5,6 +5,7 @@ class ArrayManipulation {
         System.out.println("Your Unique Number Is: "+unique);
 
     }
+    
     public static int unique(int[] numarr) {
         int ans = 0;
         for (int i = 0; i < numarr.length; i++) {
