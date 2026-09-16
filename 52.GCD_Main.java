@@ -6,8 +6,7 @@ class GCD_Main {
         }
         return gcd(num2,num1%num2);
     }
-
-
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter 1st Number: ");
