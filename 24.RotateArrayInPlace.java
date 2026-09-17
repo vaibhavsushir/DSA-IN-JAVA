@@ -11,14 +11,12 @@ import java.util.Scanner;
         rotateinplace(arr,k);
         printarray(arr);
     }
-
     public static void printarray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
-
     static void rotateinplace(int[] arr, int k) {
         int n = arr.length;
         k = k % n;
@@ -33,7 +31,6 @@ import java.util.Scanner;
             j--;
         }
     }
-
     static void swap(int[] arr, int i, int j) {
             int temp = arr[i];
         arr[i] = arr[j];
