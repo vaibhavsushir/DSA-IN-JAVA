@@ -4,7 +4,6 @@ class SortUsingTwoPointers {
         ArrayUtility.printarray(arr);
         sorted(arr);
     ArrayUtility.printarray(arr);
-
     }
     static void sorted(int[] arr){
         int n = arr.length;
