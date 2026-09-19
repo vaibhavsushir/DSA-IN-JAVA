@@ -19,8 +19,6 @@ class StoreIdxArrayList{
         ans.addAll(smallans);
         return ans;
     }
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] arr = {1, 2, 3,1, 4, 5,1,4};
