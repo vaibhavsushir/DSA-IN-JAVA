@@ -1,7 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 class RemovesOccurences {
-
     static String remove(String s,int idx){
         int n = s.length();
         String ans;
