@@ -5,7 +5,6 @@ class ReverseString {
         String smallans = reverse(str,idx+1);
         return smallans+str.charAt(idx);
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter String: ");
