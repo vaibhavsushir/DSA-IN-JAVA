@@ -1,6 +1,6 @@
 import java.util.Scanner;
- class NumericNumberRectangle {
-    public static void main(String[] args) {
+ class NumericNumberRectangle{
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
         int c = input.nextInt();
