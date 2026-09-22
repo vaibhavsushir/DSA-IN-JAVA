@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CheckPalindrome {
+class CheckPalindrome{
 
     static String reverse(String str,int idx){
         if(idx == str.length()) return "";
