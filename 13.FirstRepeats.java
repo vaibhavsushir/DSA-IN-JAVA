@@ -1,6 +1,6 @@
 import java.util.Scanner;
- class FirstRepeat {
-    public static void main(String[] args) {
+ class FirstRepeat{
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Array Size: ");
         int n = input.nextInt();
@@ -23,5 +23,4 @@ import java.util.Scanner;
             }
         return -1;
         }
-
     }
