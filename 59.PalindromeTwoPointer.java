@@ -1,8 +1,8 @@
 import java.util.Scanner;
-class PalindromeTwoPointer {
+class PalindromeTwoPointer{
 
-    static boolean ispalindrome(String str, int l, int r) {
-        if (l >= r) {
+    static boolean ispalindrome(String str, int l, int r){
+        if (l >= r){
             return true;
         }
         boolean pal = ispalindrome(str, l + 1, r - 1);
