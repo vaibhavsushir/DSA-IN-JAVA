@@ -6,13 +6,12 @@ class PalindromeTwoPointer{
             return true;
         }
         boolean pal = ispalindrome(str, l + 1, r - 1);
-        if (str.charAt(l) == str.charAt(r) && pal) {
+        if (str.charAt(l) == str.charAt(r) && pal){
             return true;
         }
         return false;
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter String: ");
         String str = input.next();
