@@ -2,11 +2,7 @@ public class LinkedList_Basics {
     public static void display(node head){
         node temp = head.next;
         while(temp != null){
-            System.out.println(temp.data+" ");
-            temp = temp.next;
-        }
-    }
-
+            System.out.println(temp.data 
     public static class node{
         int data;
         node next;
