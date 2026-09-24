@@ -1,8 +1,7 @@
 import java.util.Scanner;
 class PrintPattern{
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int r = input.nextInt();
+        Scanner input = new Scanner(System.in);        int r = input.nextInt();
         int c = input.nextInt();
         System.out.println("For Rectagular\n");
         for(int i = 1; i <= r; i++ ){
