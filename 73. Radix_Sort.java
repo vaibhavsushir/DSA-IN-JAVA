@@ -4,15 +4,6 @@ class Radix_Sort {
             System.out.print(i + " ");
         }
     }
-    static int max(int[] arr){
-        int max = Integer.MIN_VALUE;
-        for(int i=0;i< arr.length;i++){
-            if(arr[i] > max){
-                max = arr[i];
-            }
-        }
-        return max;
-    }
     static void countSort(int[] arr,int place) {
         int max = max(arr);           // Find maximum value
         int n= arr.length;
