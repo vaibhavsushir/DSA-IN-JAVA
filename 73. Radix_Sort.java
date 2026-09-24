@@ -4,22 +4,6 @@ class Radix_Sort {
             System.out.print(i + " ");
         }
     }
-    static void countSort(int[] arr,int place) {
-        int max = max(arr);           // Find maximum value
-        int n= arr.length;
-        int[] count = new int[10];// Count array
-        int[] output = new int[n];
-        // Count occurrences of each element
-        for (int i = 0; i < n; i++) {
-            int digit = (arr[i] / place) % 10;
-            count[digit]++;
-        }
-
-        // Prefix sum (cumulative count)
-        for (int i = 1; i < 10; i++) {
-            count[i] += count[i - 1];
-        }
-
         // Build output (stable sorting, go from right to left)
         for (int i = n - 1; i >= 0; i--) {
             int digit = (arr[i] / place) % 10;
