@@ -1,19 +1,7 @@
 class DistributeChocalates {
 
     static boolean isdivisionposible(int[] a,int m,int mxchocalates){
-    int noofstudents = 1;
-    int choc = 0;
-    for(int i=0; i<a.length;i++){
-        if(a[i] > mxchocalates) return false;
-        if(choc+ a[i] <= mxchocalates){
-            choc += a[i];
-        }else{
-            noofstudents++;
-            choc = a[i];
-        }
-    }
-    return noofstudents <= m;
-    }
+   
 
     static int distributechocalate(int[] arr,int m){
     if(arr.length < m) return -1;
