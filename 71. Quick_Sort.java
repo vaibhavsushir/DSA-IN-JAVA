@@ -1,9 +1,4 @@
 class Quick_Sort {
-    static void displayarr(int[] arr) {
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-    }
 
     static void swap(int[] arr, int x, int y) {
         int temp = arr[x];
