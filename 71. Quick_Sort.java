@@ -1,10 +1,4 @@
 class Quick_Sort {
-    static int partition(int[] arr, int st, int end) {
-        int pivot = arr[st];
-        int c = 0;
-        for (int i = st + 1; i <= end; i++) {
-            if (arr[i] <= pivot) c++;
-        }
         int pivotidx = st + c;
         swap(arr, st, pivotidx);
         int i = st, j = end;
