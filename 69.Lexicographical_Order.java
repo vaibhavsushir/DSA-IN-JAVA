@@ -12,7 +12,6 @@ class Lexicographical_Order {
             fruits[min_idx] = temp;
         }
     }
-
     public static void main(String[] args) {
         String[] fruits = {"kiwi", "Apple", "papaya", "mango"};
         sort(fruits);
