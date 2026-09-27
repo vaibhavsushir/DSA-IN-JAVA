@@ -1,11 +1,4 @@
 class Quick_Sort {
-
-    static void swap(int[] arr, int x, int y) {
-        int temp = arr[x];
-        arr[x] = arr[y];
-        arr[y] = temp;
-    }
-
     static int partition(int[] arr, int st, int end) {
         int pivot = arr[st];
         int c = 0;
