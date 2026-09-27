@@ -1,18 +1,4 @@
 class Quick_Sort {
-        int pivotidx = st + c;
-        swap(arr, st, pivotidx);
-        int i = st, j = end;
-        while (i < pivotidx && j > pivotidx) {
-            while (arr[i] <= pivot) i++;
-            while (arr[j] > pivot) j--;
-            if(i < pivotidx && j > pivotidx) {
-                swap(arr, i, j);
-                i++;
-                j--;
-            }
-        }
-        return pivotidx;
-    }
             static void quicksort ( int[] arr, int st, int end){
                 if (st >= end) return;
                 int pi = partition(arr, st, end);
