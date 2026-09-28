@@ -1,10 +1,3 @@
-for (int i = n - 1; i >= 0; i--) {
-            int digit = (arr[i] / place) % 10;
-            output[count[digit] - 1] = arr[i];
-            count[digit]--;
-        }
-
-        // Copy output back to arr
         for (int i = 0; i < n; i++) {
             arr[i] = output[i];
         }
