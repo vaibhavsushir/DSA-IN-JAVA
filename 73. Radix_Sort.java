@@ -1,5 +1,4 @@
 class Radix_Sort {
-        int max = Integer.MIN_VALUE;
     static void countSort(int[] arr,int place) {
         int max = max(arr);           // Find maximum value
         int n= arr.length;
