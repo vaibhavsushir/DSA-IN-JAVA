@@ -1,10 +1,4 @@
-class Radix_Sort {
-        // Prefix sum (cumulative count)
-        for (int i = 1; i < 10; i++) {
-            count[i] += count[i - 1];
-        }
-
-        // Build output (stable sorting, go from right to left)
+// Build output (stable sorting, go from right to left)
         for (int i = n - 1; i >= 0; i--) {
             int digit = (arr[i] / place) % 10;
             output[count[digit] - 1] = arr[i];
