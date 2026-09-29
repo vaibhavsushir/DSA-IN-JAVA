@@ -4,4 +4,4 @@ Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int add = numarr[0] + numarr[1];
     }
-}
+
