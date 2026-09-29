@@ -3,4 +3,3 @@ Scanner input = new Scanner(System.in);
         System.out.println("Enter 6 Elements: ");
         int num = input.nextInt();
         int add = numarr[0] + numarr[1];
-    }
