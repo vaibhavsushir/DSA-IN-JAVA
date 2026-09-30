@@ -1,7 +1,5 @@
  class Fraction {
-     public static class fraction {
-         int num;
-         int den;
+ 
 
          public fraction(int num, int den) {
              this.num = num;
