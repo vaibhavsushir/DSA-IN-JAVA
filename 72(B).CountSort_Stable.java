@@ -14,7 +14,6 @@ class CountSort_Stable {
         }
         return max;
     }
-
     static void countsort(int[] arr) {
         int n = arr.length;
         int[] output = new int[n];
@@ -46,4 +45,3 @@ class CountSort_Stable {
         displayarr(arr);
     }
 }
-
