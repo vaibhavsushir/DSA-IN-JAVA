@@ -3,7 +3,6 @@ class ArrayManipulation {
         int[] numarr = {1, 2, 3, 4, 2, 1, 3,5,4,6,4,9}; 
         int unique = unique(numarr);
         System.out.println("Your Unique Number Is: "+unique);
-
     }
     
     public static int unique(int[] numarr) {
