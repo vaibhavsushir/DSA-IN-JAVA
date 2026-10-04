@@ -7,7 +7,6 @@
         System.out.println("Sorted Array");
         ArrayUtility.printarray(arr);
     }
-  
     static void sort(int[] arr){
         int n = arr.length;
         int left = 0;
@@ -23,9 +22,7 @@
                 right--;
             }
         }
-
     }
-  
     static void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
