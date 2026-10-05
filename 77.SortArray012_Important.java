@@ -9,10 +9,8 @@ class SortArray012_Important {
         arr[x] = arr[y];
         arr[y] =temp;
     }
-
     static void sort(int[] arr){
         int lo=0,mid=0,hi= arr.length-1;
-
         while (mid<=hi){
             if(arr[mid]==0){
                 swap(arr,mid,lo);
