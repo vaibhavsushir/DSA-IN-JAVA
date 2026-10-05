@@ -1,6 +1,6 @@
 import java.util.Scanner;
- class occorences {
-    public static void main(String[] args) {
+ class occorences{
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Welcome To Count Occurrence/n");
         int[] numarr = {1,2,3,3,4,5,6,3};
