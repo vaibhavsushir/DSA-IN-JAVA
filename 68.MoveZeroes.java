@@ -10,7 +10,6 @@
             }
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {0,1,10,5,0,4};
         sort(arr);
