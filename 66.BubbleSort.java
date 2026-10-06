@@ -17,8 +17,6 @@ class BubbleSort {
             }
         }
     }
-
-
     public static void main(String[] args) {
         int[] a = {7,6,5,4,3,78,65,78,99,45};
         sort(a);
