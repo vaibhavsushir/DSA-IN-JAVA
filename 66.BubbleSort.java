@@ -1,5 +1,4 @@
 class BubbleSort {
-
     static void sort(int[] arr){
         int n = arr.length;
         boolean flag  = false;
