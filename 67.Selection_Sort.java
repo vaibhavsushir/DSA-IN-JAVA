@@ -12,7 +12,6 @@ class Selection_Sort {
             arr[minidx] = temp;
         }
     }
-
     public static void main(String[] args) {
         int[] a ={3,5,2,7,1,8,0};
         sort(a);
