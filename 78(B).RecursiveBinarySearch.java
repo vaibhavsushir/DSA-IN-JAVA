@@ -11,7 +11,6 @@ class RecursiveBinarySearch {
                 return BinarySearch(arr, target, mid + 1, end);
             }
         }
-
         public static void main(String[] args) {
             int[] arr ={1,3,6,7,8,9,12,25,37,64,82,91,94};
             int target = 37;
@@ -19,4 +18,3 @@ class RecursiveBinarySearch {
             System.out.println("Target Is Ans "+BinarySearch);
         }
     }
-
