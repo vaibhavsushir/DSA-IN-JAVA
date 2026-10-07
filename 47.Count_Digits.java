@@ -7,7 +7,6 @@ class Count_Digits {
         int smallans = count(num / 10)+1;
         return smallans;
     }
-
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
         System.out.print("Enter num: ");
