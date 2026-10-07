@@ -1,6 +1,5 @@
 import java.util.Scanner;
 class Series_Sum{
-
     static int seriessum1(int num){
         if (num == 0) {
             return 0;
