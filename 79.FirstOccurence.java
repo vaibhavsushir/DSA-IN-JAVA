@@ -1,6 +1,6 @@
-class FirstOccurence {
+class FirstOccurence{
 
-    static int search(int[] arr, int num) {
+    static int search(int[] arr, int num){
         int n = arr.length;
         int st = 0, end = n - 1;
         int occ = -1;
@@ -18,7 +18,6 @@ class FirstOccurence {
         }
         return occ;
 }
-
         public static void main(String[] args) {
             int[] arr = {1,2,3,4,5,7,8};
            int fo = search(arr,8);
