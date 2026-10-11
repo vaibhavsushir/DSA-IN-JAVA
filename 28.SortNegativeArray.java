@@ -15,8 +15,8 @@ static void sortsquare(int[] arr) {
     int[] ans = new int[n];
     int k = n - 1; 
 
-    while (left <= right) {
-        if (Math.abs(arr[left]) > Math.abs(arr[right])) {
+    while (left <= right){
+        if (Math.abs(arr[left]) > Math.abs(arr[right])){
             ans[k--] = arr[left] * arr[left];
             left++;
         } else {
