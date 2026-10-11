@@ -1,5 +1,5 @@
 class SortNegativeArray{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println("Welcome To Sorted Non Decreasing Array By There Square");
         int [] arr = {-10,-5,-2,1,4,9};
         System.out.println("Before Sorting");
