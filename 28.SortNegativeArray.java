@@ -29,4 +29,3 @@ static void sortsquare(int[] arr) {
     }
 }
 }
-
