@@ -1,6 +1,6 @@
 import java.util.Scanner;
- class secondmaximum {
-    public static void main(String[] args) {
+ class secondmaximum{
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Array Size: ");
         int n = input.nextInt();
