@@ -12,4 +12,3 @@ import java.util.Scanner;
 
             }
     }
-
