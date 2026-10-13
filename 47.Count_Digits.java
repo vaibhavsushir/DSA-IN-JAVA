@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Count_Digits {
     static int count(int num){
-        if (num > 0 && num <= 9) {
+        if (num > 0 && num <= 9){
             return 1;
         }
         int smallans = count(num / 10)+1;
