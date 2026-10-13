@@ -1,14 +1,11 @@
 import java.util.Scanner;
-class Fibonacci {
+class Fibonacci{
     static int fib(int num){
-        //Base Case
         if(num == 0 || num ==1){
             return num;
         }
-        //Subproblem
         int prev = fib(num-1);
         int prevprev = fib(num-2);
-        //Selfwork
         return prev + prevprev;
     }
     public static void main(String[] args) {
