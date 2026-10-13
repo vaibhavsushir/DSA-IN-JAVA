@@ -9,7 +9,7 @@ class Factorial{
         int ans = num * smallans;
         return ans;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number: ");
         int num = input.nextInt();
