@@ -8,14 +8,6 @@ class Toggle {
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
             if (ch == ' ') continue;
-
-            int ascii = (int) ch;
-            if (ascii >= 97 && ascii <= 122) { // lowercase
-                ascii -= 32; // convert to uppercase
-            } else if (ascii >= 65 && ascii <= 90) { // uppercase
-                ascii += 32; // convert to lowercase
-            }
-
             str.setCharAt(i, (char) ascii);
         }
 
