@@ -14,7 +14,6 @@ class DistributeChocalates {
     }
     return noofstudents <= m;
     }
-
     static int distributechocalate(int[] arr,int m){
     if(arr.length < m) return -1;
     int ans=0,st=1,end=(int)1e9;
