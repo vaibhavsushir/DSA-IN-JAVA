@@ -9,8 +9,6 @@
             }
         return true;
     }
-
-
     public static void main(String[] args) {
         String str ="abbd";
         int count = 0;
