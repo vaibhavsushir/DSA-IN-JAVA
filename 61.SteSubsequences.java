@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class SteSubsequences {
+class SteSubsequences{
         static ArrayList<String> setssq(String s){
             ArrayList<String> ans = new ArrayList<>();
             if(s.length() == 0){
@@ -15,13 +15,11 @@ class SteSubsequences {
             }
             return ans;
         }
-
         public static void main(String[] args) {
             ArrayList<String> ans = setssq("abc");
             for(String ss:ans){
                 System.out.println(ss);
             }
-
         }
     }
 
