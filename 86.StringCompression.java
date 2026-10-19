@@ -1,6 +1,4 @@
  class StringCompression {
-
-
     public static void main(String[] args) {
         String str ="aaabbcddeee";
         String ans =" "+ str.charAt(0);
