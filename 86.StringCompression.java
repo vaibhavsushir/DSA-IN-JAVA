@@ -20,4 +20,3 @@
             System.out.println(ans);
         }
     }
-
