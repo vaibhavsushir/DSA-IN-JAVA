@@ -14,7 +14,6 @@
                 if (count > 1) ans += count;
                 count = 1;
                 ans += curr;
-
             }
         }
             if(count>1) ans+=count;
