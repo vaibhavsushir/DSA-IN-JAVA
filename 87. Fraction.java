@@ -8,7 +8,6 @@
          }
          return min;
      }
-
      public static class fraction {
          int num;
          int den;
