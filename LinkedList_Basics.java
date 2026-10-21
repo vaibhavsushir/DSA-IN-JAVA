@@ -14,7 +14,6 @@ public class LinkedList_Basics {
             this.data = data;
         }
     }
-
     public static void main(String[] args) {
         node a = new node(5);
         System.out.println(a.next);
