@@ -6,7 +6,6 @@ public class LinkedList_Basics {
             temp = temp.next;
         }
     }
-
     public static class node{
         int data;
         node next;
