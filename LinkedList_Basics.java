@@ -27,5 +27,4 @@ public class LinkedList_Basics {
 //        System.out.println(a.next);
         display(a);
     }
-
 }
