@@ -1,6 +1,6 @@
 import java.util.Scanner;
-class Pyramid {
-    public static void main(String[] args) {
+class Pyramid{
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int r = input.nextInt();
 
