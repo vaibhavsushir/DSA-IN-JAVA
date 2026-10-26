@@ -1,4 +1,4 @@
- class SortEvenOddUseTwoPointers {
+ class SortEvenOddUseTwoPointers{
     public static void main(String[] args){
     int[] arr = {3,6,7,8,12,51,22,84,19};
         System.out.println("Unsorted Array");
