@@ -8,7 +8,6 @@ import java.util.Scanner;
              System.out.println();
          }
      }
-
      static void printsoiralOrder(int[][] arr,int r,int c) {
          int toprow = 0, bottomrow = r - 1, leftcol = 0, rightcol = c - 1;
          int totalele = 0;
